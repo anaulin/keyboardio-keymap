@@ -6,7 +6,7 @@ Original keymap in: https://github.com/keyboardio/Model01-Firmware/blob/master/M
 
 Current keymap in use:
 
-````
+```
 const Key keymaps[][ROWS][COLS] PROGMEM = {
 
   [QWERTY] = KEYMAP_STACKED
@@ -55,10 +55,10 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    ___, ___, Key_Enter, ___,
    ___)
 
-};```
+};
+```
 
 * Cmd: Key_LeftGui
 * Control: Key_LeftControl / Key_RightControl
 * Left option (alt): Key_LeftAlt
 * Space: Key_Spacebar
-````
